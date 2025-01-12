@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
       // server proxy
       {
         source: '/api/:path*',
-        destination: 'http://localhost:8000/api/:path*', 
+        // destination: 'http://localhost:8000/api/:path*', 
+        destination: 'https://sakshammaggu-corrviz-backend.onrender.com/api/:path*', 
       },
     ];
   },
